@@ -1,6 +1,6 @@
 # db2022
 
-
+```mermaid
 erDiagram
     Student ||--o{ Phone : has
     Student }o--o| Grade : has
@@ -50,4 +50,4 @@ erDiagram
         string name
     }
 
-
+```
