@@ -3,7 +3,7 @@
 
 erDiagram
     Student ||--o{ Phone : has
-    Student }|--o| Grade : has
+    Student }o--o| Grade : has
     Student ||--o{ StudentSchool : attends
     School ||--o{ StudentSchool : enrolls
     Student ||--o{ StudentHobby : has
